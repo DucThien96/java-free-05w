@@ -14,11 +14,35 @@ package lesson01;
  *    - Trên Windows: Không cần thực thi lệnh này
  *  3. Sau khi thực thi xong, bạn sẽ thấy thông báo "Git commit successfully" trên terminal
  */
-public class YourName_VariableExercise {
+public class Thien_VariableExercise {
     public static void main(String[] args) {
         //region Bài 01
         /* Implement your code here */
+        int a = 28;
+        double b = 28.8;
+        char word = 'Y';
+        boolean isAnswer = true;
+        String end = "-- End -- ";
 
+        System.out.println("Các phép toán cộng, trừ, nhân, chia với các biến số nguyên và số thực: ");
+
+        System.out.print("- Phep cong: a + b = ");
+        System.out.println(a+b);
+        System.out.print("- Phep tru: a - b = ");
+        System.out.println(a-b);
+        System.out.print("- Phep nhan: a * b = ");
+        System.out.println(a*b);
+        System.out.print("- Phep chia: a / b = ");
+        System.out.println(a/b);
+
+        System.out.println("bien word la: " + word);
+
+
+        if (isAnswer == true){
+            System.out.println("tat ca dap an:" + isAnswer);
+        }
+
+        System.out.println(end);
 
         //endregion
 
