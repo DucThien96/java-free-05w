@@ -1,5 +1,7 @@
 package lesson01;
 
+import java.util.Scanner;
+
 /**
  * Các bạn sẽ phát triển code của các bạn ở đây, lưu ý mỗi người tạo 01 file và đặt tên theo rule
  * 1. Copy file này, và change name của file theo cú pháp sau: YourName_VariableExercise.java
@@ -16,7 +18,8 @@ package lesson01;
  */
 public class Thien_VariableExercise {
     public static void main(String[] args) {
-        //region Bài 01
+
+        //region LESSION 01
         /* Implement your code here */
         int a = 28;
         double b = 28.8;
@@ -40,19 +43,58 @@ public class Thien_VariableExercise {
 
         if (isAnswer == true){
             System.out.println("tat ca dap an:" + isAnswer);
+            System.out.println(end);
         }
 
-        System.out.println(end);
 
+        //2.
+        int age = 70, weight = 70;
+        double height = 1.7, standardH = 1.75, standardW = 65;
+        boolean fat , notTall ;
+        String name = "Ng V Teo", hoi = "TV cuu chien binh nien khoa XVI";
+
+        if (standardW < weight) {
+            fat = standardW < weight;
+            System.out.println("You're fat: "+fat);
+        }
+        if (height != standardH)
+        {if (height <= standardH){
+            notTall = height<standardH;
+            System.out.println("You're tall: "+notTall);
+        }
+        }
+
+        String memberNo1 = name + hoi;
+        System.out.println("Thong tin thanh vien: "+ memberNo1);
+        System.out.println("Tuoi: "+ age);
         //endregion
 
-        //region Bài 02
+
+
+
+
+
+        // LESSION 02
         /* Implement your code here */
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("input text: ");
+        String input = scanner.nextLine();
+
+        
 
 
 
+        //endregion
+
+
+
+
+
+
+        // LESSION 03
+        /* Implement your code here */
 
 
 
